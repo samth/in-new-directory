@@ -3,10 +3,10 @@
 @require[scribble/manual
          scribble/eval
          scribble/basic
-         (for-label in-new-directory)]
+         (for-label file/in-new-directory)]
 
 @title[#:tag "top"]{Utilities for Manipulating Directories}
-@declare-exporting[in-new-directory]
+@declare-exporting[file/in-new-directory]
 
 @author["Dave Herman"
         @author+email["Sam Tobin-Hochstadt" "samth@cs.indiana.edu"]]
